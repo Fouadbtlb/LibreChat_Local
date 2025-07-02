@@ -18,8 +18,8 @@ services:
       - DB_HOST=vectordb
       - DB_PORT=5432
       - POSTGRES_DB=mydatabase
-      - POSTGRES_USER=myuser
-      - POSTGRES_PASSWORD=mypassword
+      - POSTGRES_USER=XTRAG_USER
+      - POSTGRES_PASSWORD=XTRAG@20225
     ports:
       - "${RAG_PORT}:${RAG_PORT}"
     depends_on:
